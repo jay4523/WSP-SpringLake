@@ -1,0 +1,24 @@
+/* 
+Poor Man's Reset
+CSSresetr.com
+*/
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 1em;
+}
+
+body {
+	font-size: 100%;
+	max-width: 960px;
+	font-family: "trebuchet ms", georgia, sans-serif;
+	margin: 0 auto;
+}
+
+a img, :link img, :visited img {
+	border: 0;
+}
+	
