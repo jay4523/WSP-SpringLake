@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>SLE | Spring Lake Elementary | Home of the Manatees</title>
+	<title>SLE | Spring Lake Elementary | Contact</title>
 	<style type="text/css">
 	@import url(css/main.css) screen;
 	</style>
@@ -28,3 +28,80 @@
 				<li><a href="contact.html">Contact </a></li>			
 			</ul>
 		</nav>
+		
+<!--============================= body ==============================-->
+
+		<p id="schooladdress">Spring Lake Elementary 695 Orange Avenue Altamonte Springs FL 407-746-1650</p>
+		
+		
+		<h2>Questions or comments about the Spring Lake Elementary</h2>
+		
+		<form method="post" action="mailto:anon@anon.com">
+		
+			<div>
+				<label for="name_first">First Name:</label>
+				<input type="text" name="name_first" id="name_first" />
+			</div>
+		
+			<div>
+				<label for="name_last">Last Name:</label>
+				<input type="text" name="name_last" id="name_last" />			
+			</div>
+		
+			<div>
+				<label for="phone">Phone:</label>
+				<input type="text" name="phone" id="phone" />			
+			</div>
+
+			<div>
+				<label for="address">Address:</label>
+				<input type="text" name="address" id="address" />			
+			</div>
+			
+			<div>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" />			
+			</div>
+			
+			<div>
+				<label for="zip">Zip Code:</label>
+				<input type="text" name="zip" id="zip" />			
+			</div>
+		
+			<div>
+				<label for="sex">Sex:</label>
+				<select name="sex" id="sex">	
+				<option>Male</option>
+				<option>Female</option>	
+				</select>
+			</div>	
+
+			<p class="formmessage">Comments:</p>
+		
+			<div>
+				<textarea rows="15" cols="44" name="message" id="message"></textarea>
+			</div>
+		
+			<div>
+				<input type="checkbox" name="personal" id="personal" />
+				<p class="formmessage">Would you prefer us to call you?</p>
+			</div>		
+	
+			<div>
+				<input type="button" value="Submit" />
+			</div>
+		
+		</form>
+		
+<!--============================== Footer ======================================-->
+
+		<footer>
+		
+		<h3>&copy; 2004-2012 Spring Lake Elementary School. All Rights Reserved.</h3>
+		
+		</footer>
+				
+	</div>	<!-- wrapper --> 	
+		
+</body>		
+</html>
