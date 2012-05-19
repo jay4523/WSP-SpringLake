@@ -32,10 +32,19 @@ h3 {
 	font-size: .9em; 
 }
 
+#wrapper {
+	width: 100%;
+}
+
 /*=============== nav ===================*/
 
 header {
 	background-color: #2266A9;
+	width: 100%;
+}
+
+#logo {
+	width: 26.875%;
 }
 
 .headerphoto1 {
@@ -112,6 +121,7 @@ header {
 
 .welcomephoto {
 	padding: 5.74712% 8.04597% 0% 8.04597%; /*25px 35px 0px 35px;*/
+	width: 78.47826%;
 
 }
 
@@ -122,7 +132,7 @@ header {
 
 #welcomemessage {
 	font-size: .75em;
-	width: 360px;
+	width: 82.75862%; /*360px;*/
 	padding-left: 8.04597% /*35px;*/	
 }
 
@@ -153,6 +163,7 @@ header {
 .profilephotos {
 	padding: 5.74712% 1.14942% 5.74712% 8.04597%; /*25px 5px 25px 35px;*/
 	float: left;
+	width: 38.62068%;
 }
 
 #profileright p {
@@ -332,7 +343,31 @@ textarea {
 }
 
 
+/* =============================== Media Queries ======================================== */
 
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (max-width: 767px) and (max-width: 959px) {
+	#navbar li a {padding: 1.25% 50%;}
+
+
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+	#navbar li a {padding: 1.25% 50%;}
+	#about {float: none; width: 100%;}
+	#tech {float: none; width: 100%;}
+	#schedulewrapper {float: none; width: 50%; margin-left: 25%;}
+	#factswrapper {float: none; width: 50%; margin-left: 25%;}
+}
+
+/*Tablet size to standard 960 (devices and browsers) */
+@media screen and (max-width: 479px) {
+	#navbar li a {padding: 1.25% 50%;}
+	#welcome {margin-left: 25%;}
+	#about {float: none; width: 100%;}
+	#tech {float: none; width: 100%;}
+	#schedulewrapper {float: none; width: 50%; margin-left: 25%;}
+	#factswrapper {float: none; width: 50%; margin-left: 25%;}
+}
 
 
 
