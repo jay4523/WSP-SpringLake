@@ -16,82 +16,84 @@
 	
 		<header>
 
-			<h1>Spring Lake Elementary</h1>
-			<img src="images/logo.png" alt="Spring Lake Elementary Logo" width="258" />
+			<h1 id="slepush">Spring Lake Elementary</h1>
+			<img src="images/ipadboy.png" class="headerphoto1" alt="Boy solving math problems on an Ipad" width="150" />
+			<img src="images/logo.png" id="logo" alt="Spring Lake Elementary Logo" width="258" />
+			<img src="images/micgirl.png" class="headerphoto2" alt="A student practicing her morning announcements" width="150" />
+
 		
 		</header>
 		
 		<nav>
-			<ul>
-				<li><a href="index.html">Home </a></li>
-				<li><a href="about.html">About </a></li>
-				<li><a href="contact.html">Contact </a></li>			
-			</ul>
+		<ul id="navbar">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Parents</a><ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">Policies</a></li></ul>
+				
+			</li>
+			<li><a href="#">Students</a><ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="#">Classrooms</a></li>
+				<li><a href="#">Kid Zone</a></li></ul>
+			</li>
+			<li><a href="#">Teachers</a><ul>
+				<li><a href="#">Calendar</a></li>
+				<li><a href="#">Policies</a></li>
+				<li><a href="#">Staff Directory</a></li></ul>
+			</li>
+			<li><a href="#">Information</a><ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">Directions</a></li></ul>
+			</li>
+		</ul>
 		</nav>
-		
 <!--============================= body ==============================-->
+		
+		<div id="schooladdress">
+			<p>Spring Lake Elementary</p>
+			<p>695 Orange Avenue</p> 
+			<p>Altamonte Springs FL</p>
+			<p>407-746-1650</p>
+		</div>
+		
+		<div id="stylized" class="myform">
+			<form id="form" name="form" method="post" action="mailto:anon@anon.com">
+			<h2 class="hcenter">Contact Form</h2>
+			<p>Questions or comments about the Spring Lake website?</p>
 
-		<p id="schooladdress">Spring Lake Elementary 695 Orange Avenue Altamonte Springs FL 407-746-1650</p>
-		
-		
-		<h2>Questions or comments about the Spring Lake Elementary</h2>
-		
-		<form method="post" action="mailto:anon@anon.com">
-		
-			<div>
-				<label for="name_first">First Name:</label>
-				<input type="text" name="name_first" id="name_first" />
-			</div>
-		
-			<div>
-				<label for="name_last">Last Name:</label>
-				<input type="text" name="name_last" id="name_last" />			
-			</div>
-		
-			<div>
-				<label for="phone">Phone:</label>
-				<input type="text" name="phone" id="phone" />			
-			</div>
+			<label>First Name
+			<span class="small">Add your name</span>
+			</label>
+			<input type="text" name="fname" id="fname" />
 
-			<div>
-				<label for="address">Address:</label>
-				<input type="text" name="address" id="address" />			
-			</div>
-			
-			<div>
-				<label for="city">City:</label>
-				<input type="text" name="city" id="city" />			
-			</div>
-			
-			<div>
-				<label for="zip">Zip Code:</label>
-				<input type="text" name="zip" id="zip" />			
-			</div>
-		
-			<div>
-				<label for="sex">Sex:</label>
-				<select name="sex" id="sex">	
-				<option>Male</option>
-				<option>Female</option>	
-				</select>
-			</div>	
+			<label>Last Name
+			<span class="small">Add your name</span>
+			</label>
+			<input type="text" name="lname" id="lname" />
 
-			<p class="formmessage">Comments:</p>
-		
-			<div>
-				<textarea rows="15" cols="44" name="message" id="message"></textarea>
-			</div>
-		
-			<div>
-				<input type="checkbox" name="personal" id="personal" />
-				<p class="formmessage">Would you prefer us to call you?</p>
-			</div>		
-	
-			<div>
-				<input type="button" value="Submit" />
-			</div>
-		
-		</form>
+			<label>Phone
+			<span class="small">Add your name</span>
+			</label>
+			<input type="text" name="phone" id="phone" />
+
+			<label>Email
+			<span class="small">Add a valid address</span>
+			</label>
+			<input type="text" name="email" id="email" />
+
+			<label>Comments
+			<span class="small">Min. size 25 chars</span>
+			</label>
+			<textarea rows="15" cols="26" name="message" id="message"></textarea>
+
+			<button type="submit">Submit</button>
+			<div class="spacer"></div>
+
+			</form>
+		</div>
 		
 <!--============================== Footer ======================================-->
 

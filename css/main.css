@@ -1,7 +1,5 @@
-/* 
-Poor Man's Reset
-CSSresetr.com
-*/
+/*=============== reset ===================*/
+
 html, body {
 	padding: 0;
 	margin: 0;
@@ -21,4 +19,320 @@ body {
 a img, :link img, :visited img {
 	border: 0;
 }
+
+h1, h2, h3, h4 {
+	color: #12A23E;
+}
+
+h2 {
+	font-size: 1.1em;
+}
+
+h3 {
+	font-size: .9em; 
+}
+
+/*=============== nav ===================*/
+
+header {
+	background-color: #2266A9;
+}
+
+.headerphoto1 {
+	padding: 0% 9.89583% 6.25% 10.9375%; /*0px 95px 60px 105px;*/
+}
+
+.headerphoto2 {
+	padding: 0% 0% 6.25% 9.375%; /*0px 0px 60px 90px;*/
+}
+
+#slepush {
+	text-indent: -90000px;
+	float: left;
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
+}
+
+#navbar li {
+	list-style: none;
+	float: left; 
+}
+
+#navbar li a {
+	display: block;
+	padding: 12px 65.4px;
+	background-color: #02284F;
+	color: #fff;
+	text-decoration: none; 
+}
+
+#navbar li ul {
+	display: none; 
+	width: 10em; /* Opera fix */
+	background-color: #69f;
+}
 	
+#navbar li:hover ul {
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar li:hover li {
+	float: none;
+}
+
+#navbar li:hover li a {
+	background-color: #2266A9;
+	border-bottom: 1px solid #fff;
+	color: #000; 
+}
+
+#navbar li li a:hover {
+	background-color: #2266A9; 
+}
+
+/*=============== home ===================*/
+
+#welcome {
+	background-color: #02284F;
+	float:left;
+	width: 45.3125%; /*435px;*/
+	margin-top: 50px;
+	font-size: 1em;
+	color: #CDCED7;
+	text-align: justify;
+	
+}
+
+.welcomephoto {
+	padding: 5.74712% 8.04597% 0% 8.04597%; /*25px 35px 0px 35px;*/
+
+}
+
+#welcome h3 {
+	padding-left: 35px;
+	font-size: .75em;
+}
+
+#welcomemessage {
+	font-size: .75em;
+	width: 360px;
+	padding-left: 8.04597% /*35px;*/	
+}
+
+#news {
+	padding: 6%;
+	float: right;
+}
+
+#news li {
+	padding: 3%;
+}
+
+#profileleft {
+	margin-top: 5%; /*50px;*/
+	clear: both;
+	width: 45.3125%; /*435px;*/
+	background-color: #02284F;
+	float: left;
+}
+
+#profileright {
+	margin-top: 5%;	
+	width: 45.3125%; /*435px;*/
+	background-color: #02284F;
+	float: right;	
+}
+
+.profilephotos {
+	padding: 5.74712% 1.14942% 5.74712% 8.04597%; /*25px 5px 25px 35px;*/
+	float: left;
+}
+
+#profileright p {
+	padding-top: 5%;
+	text-align: center;
+	color: #CDCED7;
+}
+
+#profileleft p {
+	padding-top: 5%;
+	text-align: center;
+	color: #CDCED7;
+}
+
+.profiletitle {
+	color: #12A23E;
+	font-weight: bold;
+}
+
+#commitment {
+	clear: both;
+	padding: 5% 0%;	
+}
+
+#commitment h2 {
+
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+/*=============== about ===================*/
+
+.hcenter {
+	text-align: center;
+	padding: 5% 0% 0%;
+}
+
+#about {
+	float: left;
+	width: 45.3125%; /*435px;*/
+	text-align: justify;
+}
+
+#about h3, #tech h3 {
+	text-align: center;
+}
+
+#tech {
+	float: right;
+	width: 45.3125%; /*435px;*/
+	text-align: justify;
+}
+
+#schedulewrapper {
+	width: 45.3125%; /*435px;*/
+	clear: both;
+}
+
+#schedule {
+	clear: both;
+	width: 100%;
+	padding: 5.74712% 8.04597%; /*25px 35px;*/ 
+	float: left;
+	background: #02284F;
+	border-radius: .3em 0 0 .3em;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	clear: both;
+}
+
+td {
+	border: 1px solid #fff;
+	text-align: center;
+	padding: 0.3em;
+	color: white;
+}
+
+th {
+	text-align: center;
+	background-color: #f09500;
+	color: #fff;
+	padding: 0.3em;
+	border: 1px solid #fff;
+}
+
+#factswrapper {
+	width: 45.3125%; /*435px;*/
+	float: right;
+}
+
+#registration {
+	clear: both;
+}
+
+
+/*=============== contact ===================*/
+
+#schooladdress {
+	padding: 1%;
+	background-color: #2266A9;
+	margin: 5% 0% 2%;
+	text-align: center;
+	color: #12A23E;
+	font-weight:bold;
+}
+
+.myform{
+	margin:0 auto;
+	width: 41.66666%; /*400px;*/
+	padding:3.5%; /*14px;*/
+}
+
+#stylized{
+	border:solid 2px #2266A9;
+	background: #02284F;
+}
+
+#stylized p{
+	font-size: .6875em; /*11px;*/
+	color:#CDCED7;
+	margin-bottom: 5%; /*20px;*/
+	border-bottom:solid 1px #EFF200;
+	padding-bottom: 5%; /*10px;*/
+	text-align: center;
+}
+
+#stylized label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:35%; /*140px;*/
+	float:left;
+	color: #2266A9;
+}
+
+#stylized .small{
+	color:#CDCED7;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width: 100%; /*140px;*/
+}
+
+#stylized input{
+	float:left;
+	font-size: .75em; /*12px;*/
+	padding: 1% .5%; /*4px 2px;*/
+	border:solid 1px #aacfe4;
+	width: 50%; /*200px;*/
+	margin: .5% 0% 5% 2.5%; /*2px 0 20px 10px;*/
+}
+
+#stylized button{
+	clear:both;
+	margin-left: 37.5%; /*150px;*/
+	width: 31.25%; /*125px;*/
+	height:31px;
+	background:#2266A9; 
+	text-align:center;
+	line-height:28px;
+	color:#FFFFFF;
+	font-size: .6875em; /*11px;*/
+	font-weight:bold;
+}
+
+textarea {
+	float:left;
+	font-size: 1em;
+	padding: 1% .5%; /*4px 2px;*/
+	border:solid 1px #aacfe4;
+	width: 50%; /*200px;*/
+	margin: .5% 0% 5% 2.5%; /*2px 0 20px 10px;*/
+}
+
+
+
+
+
+
