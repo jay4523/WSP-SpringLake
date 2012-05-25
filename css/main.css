@@ -41,6 +41,9 @@ h3 {
 header {
 	background-color: #2266A9;
 	width: 99.9%;
+	-moz-box-shadow: 0px 5px 2px #000; /* Says CSS doesnt exist. My assumption is it does not work in anything other than CSS3 - Will ignore all that follow */
+	-webkit-box-shadow: 0px 5px 2px #000; /* Says CSS doesnt exist. My assumption is it does not work in anything other than CSS3 - Will ignore all that follow */
+	box-shadow: 0px 5px 2px #000; /* Says CSS doesnt exist. My assumption is it does not work in anything other than CSS3 - Will ignore all that follow */
 }
 
 #logo {
@@ -69,6 +72,9 @@ header {
 #navbar li {
 	list-style: none;
 	float: left; 
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 #navbar li a {
@@ -83,6 +89,7 @@ header {
 	display: none; 
 	width: 10em; /* Opera fix */
 	background-color: #69f;
+		padding: 12px 65.4px;
 }
 	
 #navbar li:hover ul {
@@ -116,24 +123,27 @@ header {
 	font-size: 1em;
 	color: #CDCED7;
 	text-align: justify;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 	
 }
 
 .welcomephoto {
-	padding: 5.74712% 8.04597% 0% 8.04597%; /*25px 35px 0px 35px;*/
+	padding: 5.74712% 8.04597% 0% 11%; /*25px 35px 0px 35px;*/
 	width: 78.47826%;
 
 }
 
 #welcome h3 {
-	padding-left: 35px;
+	padding-left: 11%;
 	font-size: .75em;
 }
 
 #welcomemessage {
 	font-size: .75em;
-	width: 82.75862%; /*360px;*/
-	padding-left: 8.04597% /*35px;*/	
+	width: 78.75862%; 
+	padding-left: 11% /*35px;*/	
 }
 
 #news {
@@ -151,6 +161,9 @@ header {
 	width: 45.3125%; /*435px;*/
 	background-color: #02284F;
 	float: left;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 #profileright {
@@ -158,6 +171,9 @@ header {
 	width: 45.3125%; /*435px;*/
 	background-color: #02284F;
 	float: right;	
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 .profilephotos {
@@ -194,7 +210,9 @@ header {
 }
 
 footer {
+	clear: both;
 	text-align: center;
+	padding: 5% 0% 0% 0%;
 }
 
 /*=============== about ===================*/
@@ -235,6 +253,9 @@ footer {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	clear: both;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 td {
@@ -271,12 +292,18 @@ th {
 	text-align: center;
 	color: #12A23E;
 	font-weight:bold;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 .myform{
 	margin:0 auto;
 	width: 41.66666%; /*400px;*/
 	padding:3.5%; /*14px;*/
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
 }
 
 #stylized{
@@ -342,7 +369,86 @@ textarea {
 	margin: .5% 0% 5% 2.5%; /*2px 0 20px 10px;*/
 }
 
+/*=============== policies ===================*/
 
+#internet {
+	float: left;
+	width: 45.3125%; /*435px;*/
+	text-align: justify;
+}
+
+#photovideo {
+	float: right;
+	width: 45.3125%; /*435px;*/
+	text-align: justify;
+}
+
+#attendance {
+	clear: both;
+}
+
+#newsletters {
+	clear: both;
+	width: 100%;
+	padding: 5.74712% 8.04597%; /*25px 35px;*/ 
+	float: left;
+	background: #02284F;
+	border-radius: .3em 0 0 .3em;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	clear: both;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
+}
+
+#newsletters a {
+	color: #EFF200;
+}
+
+#instructions {
+	color: #2266A9;
+}
+
+/*=============== uniforms ===================*/
+
+#uniforms {
+	background-color: #02284F;
+	float:left;
+	width: 45.3125%; /*435px;*/
+	margin-top: 50px;
+	font-size: 1em;
+	color: #CDCED7;
+	text-align: justify;
+	-moz-box-shadow: 0px 5px 2px #000;
+	-webkit-box-shadow: 0px 5px 2px #000;
+	box-shadow: 0px 5px 2px #000;
+}
+
+#polokid {
+	padding: 5.74712% 8.04597% 0% 11%; /*25px 35px 0px 35px;*/
+	width: 78.47826%;
+}
+
+#uniforminstructions {
+	float: right;
+	padding: 5% 0% 0% 0%;
+}
+
+#uniforminstructions li {
+	padding: 5%;
+}
+
+#sampleuniform {
+	font-size: .75em;
+	width: 78.47826%; /*360px;*/
+	padding-left: 11% /*35px;*/
+}
+
+#uniformheader {
+	padding-left: 11%;
+	font-size: .75em;
+}
 /* =============================== Media Queries ======================================== */
 
 /*Tablet size to standard 960 (devices and browsers) */
