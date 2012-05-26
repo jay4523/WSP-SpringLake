@@ -51,11 +51,11 @@ header {
 }
 
 .headerphoto1 {
-	padding: 0% 9.89583% 6.25% 10.9375%; /*0px 95px 60px 105px;*/
+	margin: 0% 9.89583% 6.25% 10.9375%; /*0px 95px 60px 105px;*/
 }
 
 .headerphoto2 {
-	padding: 0% 0% 6.25% 9.375%; /*0px 0px 60px 90px;*/
+	margin: 0% 0% 6.25% 9.375%; /*0px 0px 60px 90px;*/
 }
 
 #slepush {
@@ -287,7 +287,7 @@ th {
 
 #schooladdress {
 	padding: 1%;
-	background-color: #2266A9;
+	background-color: #02284F;
 	margin: 5% 0% 2%;
 	text-align: center;
 	color: #12A23E;
@@ -386,6 +386,8 @@ textarea {
 #attendance {
 	clear: both;
 }
+
+/*=============== newsletters ===================*/
 
 #newsletters {
 	clear: both;
