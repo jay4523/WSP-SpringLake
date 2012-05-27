@@ -59,8 +59,7 @@ header {
 }
 
 #slepush {
-	text-indent: -90000px;
-	float: left;
+	display: none;
 }
 
 #navbar {
@@ -79,7 +78,7 @@ header {
 
 #navbar li a {
 	display: block;
-	padding: 12px 65.4px;
+	padding: 12px 65.47px;
 	background-color: #02284F;
 	color: #fff;
 	text-decoration: none; 
@@ -87,9 +86,9 @@ header {
 
 #navbar li ul {
 	display: none; 
-	width: 10em; /* Opera fix */
+	width: 11em; /* Opera fix */
 	background-color: #69f;
-		padding: 12px 65.4px;
+	padding: 12px 65.47px;
 }
 	
 #navbar li:hover ul {
@@ -112,6 +111,12 @@ header {
 #navbar li li a:hover {
 	background-color: #2266A9; 
 }
+
+.navcolor { color: orange; } 
+
+
+
+
 
 /*=============== home ===================*/
 
@@ -177,7 +182,7 @@ header {
 }
 
 .profilephotos {
-	padding: 5.74712% 1.14942% 5.74712% 8.04597%; /*25px 5px 25px 35px;*/
+	padding: 7.04712% 1.14942% 5.74712% 8.04597%; 
 	float: left;
 	width: 38.62068%;
 }
@@ -290,7 +295,7 @@ th {
 	background-color: #02284F;
 	margin: 5% 0% 2%;
 	text-align: center;
-	color: #12A23E;
+	color: #CDCED7;
 	font-weight:bold;
 	-moz-box-shadow: 0px 5px 2px #000;
 	-webkit-box-shadow: 0px 5px 2px #000;
